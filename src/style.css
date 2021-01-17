@@ -2,29 +2,35 @@ body {
     background-color: #bedcfa;
   }
   .form {
-    text-align: center;
+    text-align: left;
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
   }
   ul {
     list-style-type: none;
-    text-align: center;
+    text-align: left;
     padding: 0px;
     margin: 0px;
   }
   h1 {
     color: #98acf8;
-    text-align: center;
+    text-align: left;
     font-size: 40px;
   }
   h1 i {
     color: #fdb827;
     display: block;
-    text-align: center;
+    text-align: left;
     size: 200px;
     display: inline-block;
     width: 100%;
+    padding: 1px;
+    margin: 1px;
+  }
+  .temperature {
+    margin: 1px;
+    padding: 1px;
   }
   .extra {
     color: #b088f9;
@@ -32,10 +38,15 @@ body {
     font-size: 20px;
     top: 0px;
     left: 10px;
-    text-align: right;
+    text-align: left;
+  }
+  .current-city {
+    margin: 1px;
+    padding: 1px;
+    text-align: left;
   }
   h2 {
-    text-align: center;
+    text-align: left;
     top: 200px;
     left: 100px;
     right: 100px;
@@ -43,6 +54,7 @@ body {
     opacity: 0.5;
     color: #31326f;
   }
+
   h3 {
     text-align: center;
     color: #31326f;
