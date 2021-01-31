@@ -1,7 +1,6 @@
 body {
-  color: #aed9e0;
-  box-sizing: border-box;
-  border: black;
+  background-color: #cccccc;
+  background-image: url("https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80");
 }
 .form {
   text-align: center;
@@ -15,7 +14,7 @@ left: 10px;
 }
 h1 {
   text-align: center;
-  color: #028090;
+  color: #b231dc;
 }
 .fas {
   color: #ffd166;
@@ -26,12 +25,12 @@ h1 {
 }
 h2 {
   text-align: center;
-  color: #06d6a0;
+  color: #8338ec;
   margin: 0px;
 }
 .extra {
-  color: #00a896;
-  text-align: right;
+  color: #e029cb;
+  text-align: center;
   top: 80px;
 }
 a {
