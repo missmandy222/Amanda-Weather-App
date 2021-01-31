@@ -1,62 +1,35 @@
 body {
-    background-color: #66a2df;
-  }
-  .form {
-    text-align: left;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 10px;
-  }
-  ul {
-    list-style-type: none;
-    text-align: left;
-    padding: 0px;
-    margin: 0px;
-  }
-  h1 {
-    color: #4d62b9;
-    text-align: left;
-    font-size: 40px;
-  }
-  h1 i {
-    color: #fdb827;
-    display: block;
-    text-align: left;
-    size: 200px;
-    display: inline-block;
-    width: 100%;
-    padding: 1px;
-    margin: 1px;
-  }
-  .temperature {
-    margin: 1px;
-    padding: 1px;
-  }
-  .extra {
-    color: #b088f9;
-    position: static;
-    font-size: 20px;
-    top: 0px;
-    left: 10px;
-    text-align: left;
-  }
-  .current-city {
-    margin: 1px;
-    padding: 1px;
-    text-align: left;
-  }
-  h2 {
-    text-align: left;
-    top: 200px;
-    left: 100px;
-    right: 100px;
-    position: absolute;
-    opacity: 0.5;
-    color: #31326f;
-  }
-
-  h3 {
-    text-align: center;
-    color: #31326f;
-  }
-  
+  color: #a2d2ff;
+}
+.form {
+  text-align: left;
+  padding: 15px;
+}
+ul {
+list-style-type: none;
+text-align: left;
+margin: 10px;
+left: 10px;
+}
+h1 {
+  text-align: left;
+  color: #cdb4db;
+}
+.fas {
+  color: #ffd166;
+  padding: 0px;
+  margin: 0px;
+  bottom: 0px;
+}
+h2 {
+  text-align: left;
+  color: #ffc8dd;
+  margin: 0px;
+}
+.extra {
+  color: #ffafcc;
+}
+h3 {
+  text-align: center;
+  color: #bde0fe;
+}
