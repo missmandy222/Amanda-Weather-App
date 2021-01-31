@@ -13,7 +13,7 @@ left: 10px;
 }
 h1 {
   text-align: left;
-  color: #ef476f;
+  color: #028090;
 }
 .fas {
   color: #ffd166;
@@ -27,9 +27,5 @@ h2 {
   margin: 0px;
 }
 .extra {
-  color: #3f37c9;
-}
-h3 {
-  text-align: center;
   color: #118ab2;
 }
