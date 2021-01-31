@@ -1,5 +1,5 @@
 body {
-  color: #a2d2ff;
+  color: #aed9e0;
 }
 .form {
   text-align: left;
@@ -13,7 +13,7 @@ left: 10px;
 }
 h1 {
   text-align: left;
-  color: #cdb4db;
+  color: #ef476f;
 }
 .fas {
   color: #ffd166;
@@ -23,13 +23,13 @@ h1 {
 }
 h2 {
   text-align: left;
-  color: #ffc8dd;
+  color: #06d6a0;
   margin: 0px;
 }
 .extra {
-  color: #ffafcc;
+  color: #3f37c9;
 }
 h3 {
   text-align: center;
-  color: #bde0fe;
+  color: #118ab2;
 }
