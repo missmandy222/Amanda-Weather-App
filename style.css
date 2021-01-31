@@ -27,5 +27,10 @@ h2 {
   margin: 0px;
 }
 .extra {
-  color: #118ab2;
+  color: #00a896;
+  text-align: left;
+  top: 80px;
+}
+a {
+  font-size: 10px;
 }
