@@ -56,3 +56,12 @@ console.log(cityForm);
 
 cityForm.addEventListener("submit", handleSubmit);
 
+function fiveDay(event){
+  event.preventDefault();
+  let apiKey = "50dffa1789574536f016b2bc3914e6d6";
+  let days = document.querySelector("h3").value;
+let apiUrl = `api.openweathermap.org/data/2.5/forecast?q=${days}&appid=${apiKey}`;
+axios.get(apiUrl).then(displayWeatherCondition);
+}
+console.log(fiveDay);
+cityForm.addEventListener('submit', fiveDay);
