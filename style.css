@@ -2,19 +2,22 @@ body {
 font-family: Bradley Hand, cursive	;
 }
 .form {
-  text-align: center;
-  padding: 40px;
+  text-align: left;
+  padding: 0px;
 }
 ul {
 list-style-type: none;
 text-align: left;
 margin: 10px;
 left: 10px;
+padding: 0px auto;
 }
 h1 {
   text-align: center;
   color: #b231dc;
   margin: 30px auto;
+  padding: 0px auto;
+  line-height: 28px;
 }
 .fas {
   color: #ffd166;
@@ -30,8 +33,9 @@ h2 {
 }
 .extra {
   color: #e029cb;
-  text-align: center;
+  text-align: right;
   top: 80px;
+
 }
 a {
   font-size: 10px;
