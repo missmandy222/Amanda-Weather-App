@@ -1,6 +1,3 @@
-let apiKey = "50dffa1789574536f016b2bc3914e6d6";
-console.log(apiKey)
-
 function formatDate(date) {
   let hours = date.getHours();
   if (hours < 10) {
@@ -31,16 +28,11 @@ let currentTime = new Date();
 //search
 function displayWeatherCondition(response) {
   console.log(response.data);
-  let iconElement = document.querySelector("#fas fa-sun");
   document.querySelector("#current-city").innerHTML = response.data.name;
   document.querySelector("#temperature").innerHTML = Math.round(
     response.data.main.temp
   );
-  iconElement.setAttribute(
-    "src",
-    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
-  );
-  iconElement.setAttribute("alt", response.data.weather[0].description);
+  
   document.querySelector("#precipitation").innerHTML =
     response.data.main.precipitation;
   document.querySelector("#wind").innerHTML = Math.round(
