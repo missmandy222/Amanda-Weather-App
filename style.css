@@ -5,6 +5,10 @@ font-family: Bradley Hand, cursive	;
   text-align: center;
   padding: 0px;
 }
+.date {
+  text-align: center;
+  color: #e029cb;
+}
 ul {
 list-style-type: none;
 text-align: center;
