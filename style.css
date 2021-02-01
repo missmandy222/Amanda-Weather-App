@@ -18,6 +18,7 @@ h1 {
   margin: 30px auto;
   padding: 0px auto;
   line-height: 28px;
+  font-size: 35px;
 }
 .fas {
   color: #ffd166;
@@ -35,9 +36,11 @@ h2 {
   padding: 0px auto;
   margin: 0px auto;
 }
-.current-city {
-  padding: 1px;
-  margin-top: 0px auto;
+.units {
+  font-size: 30px;
+  float: right;
+  margin-right: 190px;
+  display: block;
 }
 .extra {
   color: #e029cb;
