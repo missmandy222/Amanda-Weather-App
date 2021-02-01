@@ -31,9 +31,17 @@ h2 {
   color: #8338ec;
   margin: 0px;
 }
+.temperature {
+  padding: 0px auto;
+  margin: 0px auto;
+}
+.current-city {
+  padding: 1px;
+  margin-top: 0px auto;
+}
 .extra {
   color: #e029cb;
-  text-align: right;
+  text-align: left;
   top: 80px;
 
 }
