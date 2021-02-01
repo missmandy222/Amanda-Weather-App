@@ -31,6 +31,7 @@ dateElement.innerHTML = formatDate(currentTime);
 
 function displayWeatherCondition(response) {
   console.log(response.data);
+  let iconElement = document.querySelector("#fas fa-sun");
   document.querySelector("#current-city").innerHTML = response.data.name;
   document.querySelector("#temperature").innerHTML = Math.round(
     response.data.main.temp
