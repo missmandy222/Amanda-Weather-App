@@ -28,8 +28,6 @@ function formatDate(date) {
 let dateElement = document.querySelector("#date");
 let currentTime = new Date();
 
-dateElement.innerHTML = formatDate(currentTime);
-
 //search
 function displayWeatherCondition(response) {
   console.log(response.data);
