@@ -1,12 +1,6 @@
-
-
-//search
-
 //search
 function displayWeatherCondition(response) {
   let iconElement = document.querySelector("#icon");
-
-
   document.querySelector("#current-city").innerHTML = response.data.name;
   document.querySelector("#temperature").innerHTML = Math.round(
     response.data.main.temp
