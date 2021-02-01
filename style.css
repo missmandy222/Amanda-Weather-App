@@ -2,30 +2,31 @@ body {
 font-family: Bradley Hand, cursive	;
 }
 .form {
-  text-align: left;
+  text-align: center;
   padding: 0px;
 }
 ul {
 list-style-type: none;
-text-align: left;
+text-align: center;
 margin: 10px;
-left: 10px;
+center: 10px;
 padding: 0px auto;
 }
 h1 {
   text-align: center;
   color: #b231dc;
-  margin: 30px auto;
+  margin: 20px auto;
   padding: 0px auto;
   line-height: 28px;
   font-size: 35px;
 }
-.fas {
-  color: #ffd166;
+.icon {
   padding: 0px;
   margin: 0px;
   bottom: 0px;
+  height: 1px;
   text-align: center;
+  width: 100px;
 }
 h2 {
   text-align: center;
@@ -38,9 +39,8 @@ h2 {
 }
 .units {
   font-size: 30px;
-  float: right;
-  margin-right: 240px;
   display: block;
+  text-align: center;
 }
 
 .extra {
