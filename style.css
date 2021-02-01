@@ -39,9 +39,10 @@ h2 {
 .units {
   font-size: 30px;
   float: right;
-  margin-right: 190px;
+  margin-right: 240px;
   display: block;
 }
+
 .extra {
   color: #e029cb;
   text-align: left;
